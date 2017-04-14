@@ -18,7 +18,7 @@
       * Clone the element.
       */
      function cloneElement() {
-         var $clone = $scope.find(elements.original).clone();
+         var $clone = $scope.find(elements.original).first().clone();
          var $target = $scope.find(elements.target);
 
          $target.append(
