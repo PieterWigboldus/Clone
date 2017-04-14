@@ -1,2 +1,2 @@
 # Clone
-Clone an element
+Clone an element.
